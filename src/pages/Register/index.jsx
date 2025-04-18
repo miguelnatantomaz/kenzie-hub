@@ -223,6 +223,7 @@ function Register() {
             {...register("confirmPassword")}
             helperText={errors.confirmPassword?.message}
             margin="normal"
+            type="password"
             variant="outlined"
             fullWidth
             sx={{
